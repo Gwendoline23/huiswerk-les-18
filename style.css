@@ -1,0 +1,76 @@
+body{background-color: aqua;
+}@media only screen and (max-width: 768px) {
+    body{background-color: red;
+    }
+}
+[class*="col-"] {float: left; 
+    padding: 15px}
+.col-1 {width:0%}
+.col-2 {width: 40%;}
+.col-3 {width: 25%;}
+.col-4 {width: 50%;
+float:right; }
+.col-5 {width:50%;
+float:right;}
+.col-6 {width: 50%;}
+.col-7 {width: 50%;}
+.col-8 {width: 50%;}
+.col-9 {width: 50%;}
+.col-10 {width: 50%;}
+.col-11 {width: 50%;}
+.col-12 {width: 50%;}
+img{
+  display: block;
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 50%;
+  padding: 5px;
+  }
+.header{
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 15px;
+  font-family: fantasy;
+  font-size: 30px;  
+  text-align: center;
+}
+.feitjes{
+    display: inline-block;
+    width: 30%;
+    font-family: Verdana;
+    float: left;
+   }
+#artikel{
+    clear: right; 
+    display: inline-block;
+    width:100%;
+    font-family: verdana; 
+    font-size: 15;
+    background-color: white; 
+   
+}
+#schaatsbaan{
+    float: right;
+    width: 150px; 
+    height: 150px;
+}
+#Geitenmarkt{
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+h2{
+  font-size:18;
+  font-family: verdana;
+  text-align: center;
+}
+ul{
+  font-family: verdana;
+  font-size: 15;
+ }
+li{
+     list-style-type: Upper-roman;
+}
+.footer{
+padding:15px;
+}
